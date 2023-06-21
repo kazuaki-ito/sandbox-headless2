@@ -19,6 +19,7 @@ _Live Example: https://hydrogen-template.vercel.app_
 
 To create a new Hydrogen app, run:
 
+
 ```bash
 npm init @shopify/hydrogen
 ```
