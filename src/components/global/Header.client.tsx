@@ -169,6 +169,7 @@ function DesktopHeader({
         <Link className={`font-bold`} to="/">
           {title}
         </Link>
+        <img src="https://picsum.photos/5000/3333?image=25" width="50px"/>
         <nav className="flex gap-8">
           {/* Top level menu items */}
           {(menu?.items || []).map((item) => (

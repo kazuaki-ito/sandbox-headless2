@@ -10,6 +10,9 @@ export default defineConfig({
   optimizeDeps: {
     include: ['@headlessui/react', 'clsx', 'react-use', 'typographic-base'],
   },
+  server: {
+    host:true
+  },
   test: {
     globals: true,
     testTimeout: 10000,
